@@ -1,0 +1,25 @@
+.jumbotron {
+      background: url("img/chain-232930.jpg");
+      background-position: center center;
+      background-size: cover;
+      color: #fff;
+    }
+
+.container {
+    margin-top: 8%;
+}
+
+.midashi-btn {
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 0;
+}
+
+.midashi-btn:hover {
+    color: #0089ff;
+    border-color: #0089ff;
+}
+
+.navbar-form {
+    padding-right: 30px;
+}

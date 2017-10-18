@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap 101 Template</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <style>
+         header.jumbotron {
+             background: url("img/bg2.jpg");
+             background-position: center center;
+             background-size: cover;
+             color: #fff;
+         }
+         
+         header .container {
+             margin-top: 8%;
+         }
+         
+         header .midashi-btn {
+             border: 1px solid #fff;
+             color: #fff;
+             border-radius: 0;
+         }
+         
+         header .midashi-btn:hover {
+             color: #0089ff;
+             border-color: #0089ff;
+         }
+         
+         .navbar-form {
+             padding-right: 30px;
+         }
+        </style>
+    </head>
+    <body>   
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-header">
+
+                <!--ブランド名 ロゴ名の表示-->
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./img/logo.png" height="30">
+                </a>
+
+                <!--トグルボタンの設置-->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-content">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="nav-content" class="collapse navbar-collapse">
+
+                <!--リンクのリスト メニューリスト-->
+                <ul class="nav navbar-nav">
+                    <li><a href="">Link1</a></li>
+                    <li><a href="">Link2</a></li>
+                    <li><a href="">Link3</a></li>
+
+                    <!--ドロップダウン化するliタグ-->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" href="">Drop  <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Link1</a></li>
+                            <li><a href="#">Link2</a></li>
+                            <li><a href="#">Link3</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Link A</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">LInk B</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+                <!--検索フォーム-->
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+        </nav>
+        <!-- ヘッダー部分 -->
+        <header class="jumbotron">
+            <div class="container">
+                <h1>Make app and the World.</h1>
+                <p>ADOCUSは大阪市立大学に在籍している優秀な学生プログラマーがたくさん所属しています。プログラミングの経験が全くない方、プログラミングの腕を磨きたい方は、大阪市立大学で共に学びましょう。</p>
+
+                <p><a class="btn btn-lg midashi-btn" role="button">もっと詳しく &raquo;</a></p>
+            </div>
+        </header>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
