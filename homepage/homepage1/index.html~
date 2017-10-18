@@ -1,0 +1,26 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>大阪市立大学アプリ開発サークルADOCUS</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="header-left">ADOCUS</div>
+            <div class="header-right">
+                <ul>
+                    <li>ホーム</li>
+                    <li>OCU＋</li>
+                    <li>文化祭アプリ</li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <img src="IMG_0198.jpg" width="1100" height="800">
+        </div>
+        <div class="footer"></div>
+    </body>
+</html>

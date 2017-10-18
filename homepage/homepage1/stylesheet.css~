@@ -1,0 +1,40 @@
+li{
+    list-style:none;
+}
+
+.header{
+    height:65px;
+    border-bottom:1px solid #aaaaaa;
+}
+
+.header-left{
+    font-size:30px;
+    float:left; 
+    padding:25px;
+    color:#ff3000;
+}
+
+.header-right{
+    height:65px;
+    float:right;
+}
+
+.header-right li{
+    float:left;
+    border-left:1px solid #aaaaaa;
+    padding:12px 30px;
+}
+
+
+.main{
+    background-color:#ffffff;
+    height:900px;
+    margin:0 auto;
+    padding :10px;
+}
+
+.footer{
+    clear:left;
+    height:100px;
+    background-color:#888888;
+}
