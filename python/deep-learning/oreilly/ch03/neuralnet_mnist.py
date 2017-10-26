@@ -35,17 +35,15 @@ def predict(network, x):
 x, t = get_data()
 network = init_network()
 accuracy_cnt = 0
-for i in range(100):
+for i in range(len(x)):
     y = predict(network, x[i])
     p= np.argmax(y) # 最も確率の高い要素のインデックスを取得
-    print("exp: ", t[i])
-    print("ans: ", p)
     if p == t[i]:
         accuracy_cnt += 1
-        print("RESULT: True")
-        print("")
-    else:
-        print("RESULT: False")
-        print("")
 
-print("Accuracy:" + str(float(accuracy_cnt) / 100))
+    print("-------")
+    print("正解は", t[i])
+    print("回答は", p)
+    print("-------")
+
+print("Accuracy:" + str(float(accuracy_cnt) / len(x)))

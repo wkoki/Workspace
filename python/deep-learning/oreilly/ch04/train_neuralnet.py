@@ -31,9 +31,7 @@ for i in range(iters_num):
     #grad = network.numerical_gradient(x_batch, t_batch)
     grad = network.gradient(x_batch, t_batch)
     
-    # パラメータの更新
-    for key in ('W1', 'b1', 'W2', 'b2'):
-        network.params[key] -= learning_rate * grad[key]
+    # パラメータの更新 for key in ('W1', 'b1', 'W2', 'b2'): network.params[key] -= learning_rate * grad[key]
     
     loss = network.loss(x_batch, t_batch)
     train_loss_list.append(loss)
