@@ -22,6 +22,7 @@ import tensorflow as tf
 from tensorflow.models.rnn import rnn_cell
 from tensorflow.models.rnn import seq2seq
 
+
 import data_utils
 
 
