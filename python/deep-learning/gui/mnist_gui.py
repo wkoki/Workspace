@@ -99,7 +99,6 @@ except:
 
     model.save('./model.hdf5')
 
-
 class ScribbleArea(QWidget):
     def __init__(self, parent=None):
         super(ScribbleArea, self).__init__(parent)
@@ -107,8 +106,8 @@ class ScribbleArea(QWidget):
         self.setAttribute(Qt.WA_StaticContents)
         self.modified = False
         self.scribbling = False
-        self.myPenWidth = 1
-        self.myPenColor = Qt.blue
+        self.myPenWidth = 40
+        self.myPenColor = Qt.black
         self.image = QImage()
         self.lastPoint = QPoint()
 
